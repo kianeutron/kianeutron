@@ -1,5 +1,5 @@
 # About Me:
-🎓 I'm an IT student at Inholland University, currently pursuing a Bachelor's in Information Technology.<br> Passionate about web development and clean code!<br>🚀 I'm currently learning Next.js, TypeScript, and networking fundamentals.<br>💼 Actively looking for an internship to grow and apply my skills in real-world projects.<br>🎉 Fun fact: I'm a fast learner and always excited to pick up new technologies!
+ I'm an IT student at Inholland University, currently pursuing a Bachelor's in Information Technology.<br> Passionate about web development and clean code!<br> I'm currently learning Next.js, TypeScript, and networking fundamentals.<br>Actively looking for an internship to grow and apply my skills in real-world projects.<br>Fun fact: I'm a fast learner and always excited to pick up new technologies!
 
 
 ## 🌐 Socials:
