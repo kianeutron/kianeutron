@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" width="100%" role="img" aria-label="Kian technical system map">
+  <rect width="1200" height="620" fill="#030603"/>
+  <g stroke="#13361d" stroke-width="1" opacity=".55">
+    <path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200M0 400H1200M0 480H1200M0 560H1200"/>
+    <path d="M100 0V620M200 0V620M300 0V620M400 0V620M500 0V620M600 0V620M700 0V620M800 0V620M900 0V620M1000 0V620M1100 0V620"/>
+  </g>
+  <text x="600" y="52" fill="#d9ffe1" font-family="monospace" font-size="30" font-weight="700" text-anchor="middle">SYSTEM MODULES</text>
+  <text x="600" y="80" fill="#4ca865" font-family="monospace" font-size="14" text-anchor="middle">technical profile // live dependency map</text>
+
+  <g stroke="#2c8c45" stroke-width="2" stroke-dasharray="8 10" opacity=".7">
+    <line x1="600" y1="318" x2="260" y2="195"><animate attributeName="stroke-dashoffset" from="0" to="-72" dur="3s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="318" x2="940" y2="195"><animate attributeName="stroke-dashoffset" from="0" to="-72" dur="2.7s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="318" x2="260" y2="455"><animate attributeName="stroke-dashoffset" from="0" to="-72" dur="3.4s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="318" x2="940" y2="455"><animate attributeName="stroke-dashoffset" from="0" to="-72" dur="3.1s" repeatCount="indefinite"/></line>
+  </g>
+
+  <circle cx="600" cy="318" r="78" fill="#061108" stroke="#39ff14" stroke-width="3"/>
+  <circle cx="600" cy="318" r="94" fill="none" stroke="#1d6f32" stroke-width="2" opacity=".45">
+    <animate attributeName="r" values="86;102;86" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".55;.1;.55" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="600" y="310" fill="#39ff14" font-family="monospace" font-size="24" font-weight="700" text-anchor="middle">KIAN.EXE</text>
+  <text x="600" y="340" fill="#b7eec1" font-family="monospace" font-size="14" text-anchor="middle">FULL STACK CORE</text>
+
+  <g font-family="monospace">
+    <g>
+      <rect x="92" y="120" width="336" height="154" rx="4" fill="#071009" stroke="#237d3b" stroke-width="2"/>
+      <text x="118" y="153" fill="#39ff14" font-size="20" font-weight="700">FRONTEND</text>
+      <text x="118" y="186" fill="#d7ffe0" font-size="15">React · Next.js · Angular</text>
+      <text x="118" y="211" fill="#d7ffe0" font-size="15">TypeScript · JavaScript</text>
+      <text x="118" y="236" fill="#83c991" font-size="14">PWA · Capacitor · Zustand</text>
+    </g>
+    <g>
+      <rect x="772" y="120" width="336" height="154" rx="4" fill="#071009" stroke="#237d3b" stroke-width="2"/>
+      <text x="798" y="153" fill="#39ff14" font-size="20" font-weight="700">BACKEND + DATA</text>
+      <text x="798" y="186" fill="#d7ffe0" font-size="15">C# · ASP.NET Core · APIs</text>
+      <text x="798" y="211" fill="#d7ffe0" font-size="15">SQL Server · PostgreSQL</text>
+      <text x="798" y="236" fill="#83c991" font-size="14">EF · OData · Stored Procedures</text>
+    </g>
+    <g>
+      <rect x="92" y="378" width="336" height="154" rx="4" fill="#071009" stroke="#237d3b" stroke-width="2"/>
+      <text x="118" y="411" fill="#39ff14" font-size="20" font-weight="700">AI SYSTEMS</text>
+      <text x="118" y="444" fill="#d7ffe0" font-size="15">Agents · MCP · LLM Integration</text>
+      <text x="118" y="469" fill="#d7ffe0" font-size="15">Structured Outputs · RAG</text>
+      <text x="118" y="494" fill="#83c991" font-size="14">Microsoft Foundry · LangChain</text>
+    </g>
+    <g>
+      <rect x="772" y="378" width="336" height="154" rx="4" fill="#071009" stroke="#237d3b" stroke-width="2"/>
+      <text x="798" y="411" fill="#39ff14" font-size="20" font-weight="700">SECURITY + SYSTEMS</text>
+      <text x="798" y="444" fill="#d7ffe0" font-size="15">AppSec · Burp · Kali · Nmap</text>
+      <text x="798" y="469" fill="#d7ffe0" font-size="15">SignalR · WebSockets · Linux</text>
+      <text x="798" y="494" fill="#83c991" font-size="14">Hardening · Integration · CI/CD</text>
+    </g>
+  </g>
+</svg>

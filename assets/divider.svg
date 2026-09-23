@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 42" width="100%" role="img" aria-label="">
+  <rect width="1200" height="42" fill="#020402"/>
+  <rect x="0" y="20" width="1200" height="2" fill="#12351c"/>
+  <rect x="420" y="19" width="360" height="4" fill="#39ff14" opacity=".65">
+    <animate attributeName="opacity" values=".25;.85;.25" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="600" y="15" fill="#2b8d43" font-family="monospace" font-size="11" text-anchor="middle">:: DATA BUS ::</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" role="img" aria-label="Kian Khatibi retro terminal banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#020402"/>
+      <stop offset="1" stop-color="#071008"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#0d2914" stroke-width="1" opacity=".35"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+
+  <g fill="#1cff57" opacity=".22" font-family="monospace" font-size="18">
+    <text x="70" y="-40">010101001101001011010010<animate attributeName="y" values="-40;470" dur="8s" repeatCount="indefinite"/></text>
+    <text x="215" y="-120">1011001010010110101101<animate attributeName="y" values="-120;470" dur="10s" repeatCount="indefinite"/></text>
+    <text x="960" y="-70">00101110101001101001<animate attributeName="y" values="-70;470" dur="7s" repeatCount="indefinite"/></text>
+    <text x="1080" y="-160">1100101011010101<animate attributeName="y" values="-160;470" dur="11s" repeatCount="indefinite"/></text>
+  </g>
+
+  <rect x="46" y="38" width="1108" height="330" rx="6" fill="#060b07" stroke="#2d6f3d" stroke-width="3"/>
+  <rect x="58" y="50" width="1084" height="306" fill="none" stroke="#173b22" stroke-width="2"/>
+  <rect x="46" y="38" width="1108" height="34" fill="#102016"/>
+  <circle cx="68" cy="55" r="5" fill="#39ff14"/>
+  <circle cx="86" cy="55" r="5" fill="#1b7f31"/>
+  <circle cx="104" cy="55" r="5" fill="#12351c"/>
+  <text x="125" y="61" fill="#9cf7a9" font-family="monospace" font-size="15">C:\KIAN\PROFILE.EXE</text>
+
+  <g filter="url(#glow)">
+    <text x="600" y="175" fill="#d7ffe0" font-family="monospace" font-size="58" font-weight="700" text-anchor="middle">KIAN KHATIBI</text>
+    <text x="600" y="220" fill="#39ff14" font-family="monospace" font-size="22" text-anchor="middle">SOFTWARE ENGINEER // AI SYSTEMS // APPLICATION SECURITY</text>
+  </g>
+
+  <text x="118" y="282" fill="#8dd99b" font-family="monospace" font-size="18">&gt; stack --inspect</text>
+  <text x="118" y="315" fill="#d7ffe0" font-family="monospace" font-size="17">.NET  ·  React  ·  Angular  ·  SQL  ·  Python  ·  MCP  ·  Security</text>
+  <rect x="930" y="292" width="14" height="24" fill="#39ff14">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="72" y="395" fill="#2e7d42" font-family="monospace" font-size="13">SYSTEM STATUS: ONLINE</text>
+  <text x="1128" y="395" fill="#2e7d42" font-family="monospace" font-size="13" text-anchor="end">NETHERLANDS // 2026</text>
+</svg>

@@ -1,0 +1,29 @@
+name: contribution-snake
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?palette=light&color_snake=#19a83e&color_dots=#edf7ef,#b8e7c1,#72cf86,#39a956,#176b2d
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#39ff14&color_dots=#061008,#0c2a14,#145322,#1e8237,#39ff14
+
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
+          publish_branch: output
+          keep_files: true
