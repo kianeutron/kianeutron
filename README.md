@@ -7,9 +7,9 @@
 <img src="./assets/banner.svg" alt="Kian Khatibi — Software Engineer, AI Systems, Application Security" width="100%" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kianeutron/kianeutron/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kianeutron/kianeutron/output/github-snake.svg" />
-  <img alt="Animated contribution snake" src="https://raw.githubusercontent.com/kianeutron/kianeutron/output/github-snake-dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kianeutron/kianeutron/output/github-snake-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kianeutron/kianeutron/output/github-snake.svg?v=2" />
+  <img alt="Animated contribution snake" src="https://raw.githubusercontent.com/kianeutron/kianeutron/output/github-snake-dark.svg?v=2" width="100%" />
 </picture>
 
 <img src="./assets/divider.svg" alt="" width="100%" />
